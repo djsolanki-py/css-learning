@@ -1,0 +1,22 @@
+/* External CSS */
+
+/* Styling the webpage */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+/* External CSS heading */
+.external-heading {
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+/* External CSS paragraph */
+.external-text {
+    color: darkgreen;
+    background-color: lightgreen;
+    padding: 10px;
+}

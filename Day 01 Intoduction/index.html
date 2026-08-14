@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Introduction</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        /* Element Selector */
+        p {
+            color: plum;
+            background-color: black;
+        }
+
+        /* Class Selector */
+        .para {
+            color: royalblue;
+            background-color: rgb(209, 196, 13);
+        }
+
+        .para1 {
+            color: brown;
+            background-color: aqua;
+        }
+
+        /* ID Selector */
+        #heading {
+            color: chocolate;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Introduction</h1>
+
+    <p>
+        CSS is used to style and design HTML webpages.
+    </p>
+
+    <!-- ================= INLINE CSS ================= -->
+
+    <h2>1. Inline CSS</h2>
+
+    <p style="color: white; background-color: green;">
+        This paragraph uses Inline CSS.
+    </p>
+
+
+    <!-- ================= INTERNAL CSS ================= -->
+
+    <h2>2. Internal CSS</h2>
+
+    <p class="para">
+        This paragraph uses Internal CSS through a class.
+    </p>
+
+    <p class="para1">
+        This is another example of Internal CSS.
+    </p>
+
+    <h2 id="heading">
+        This heading uses an ID selector.
+    </h2>
+
+
+    <!-- ================= EXTERNAL CSS ================= -->
+
+    <h2 class="external-heading">
+        3. External CSS
+    </h2>
+
+    <p class="external-text">
+        This paragraph is styled using the external style.css file.
+    </p>
+
+
+    <!-- ================= SELECTORS ================= -->
+
+    <h2>Basic CSS Selectors</h2>
+
+    <ul>
+        <li>Element Selector → p</li>
+        <li>Class Selector → .para</li>
+        <li>ID Selector → #heading</li>
+    </ul>
+
+</body>
+
+</html>
