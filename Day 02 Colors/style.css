@@ -1,0 +1,15 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page background */
+body {
+    background-color: lightblue;
+}
+
+/* Heading color using RGB */
+h1 {
+    color: rgb(255, 120, 114);
+}
