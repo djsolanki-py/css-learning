@@ -1,0 +1,97 @@
+  /* =================================
+           CSS BACKGROUND IMAGE
+    ================================= */
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body {
+
+            /*
+            background-image:
+            Adds an image to the background.
+            */
+
+            background-image: url("/images/images.png");
+
+
+            /*
+            background-repeat:
+
+            repeat
+            no-repeat
+            repeat-x
+            repeat-y
+            */
+
+            background-repeat: no-repeat;
+
+
+            /*
+            background-position:
+
+            top left
+            top right
+            center
+            bottom left
+            bottom right
+            */
+
+            background-position: center;
+
+
+            /*
+            background-attachment:
+
+            scroll
+            fixed
+            */
+
+            background-attachment: fixed;
+
+
+            /*
+            background-size:
+
+            cover
+            contain
+            */
+
+            background-size: cover;
+
+            min-height: 100vh;
+        }
+
+
+        h1 {
+
+            color: blue;
+
+            background-color: green;
+
+            padding: 10px;
+
+        }
+
+
+        p {
+
+            color: black;
+
+            font-size: 18px;
+
+            line-height: 1.4;
+
+        }
+
+
+        .content {
+
+            padding: 20px;
+
+            background-color: rgba(255, 255, 255, 0.2);
+
+        }
