@@ -1,0 +1,320 @@
+/* =========================================
+   CSS BORDER PROPERTY PRACTICE
+   ========================================= */
+
+
+/* Basic Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Page */
+
+body {
+
+    background: url("/images/images2.jfif") no-repeat center fixed;
+
+    background-size: cover;
+
+    font-family: Arial, sans-serif;
+
+    padding: 30px;
+
+}
+
+
+/* =========================================
+   MAIN HEADING
+   ========================================= */
+
+#heading {
+
+    margin: 20px;
+
+    padding: 15px;
+
+    color: brown;
+
+    background-color: rgb(69, 169, 135);
+
+    /*
+    Border shorthand:
+
+    border: width style color;
+    */
+
+    border: 5px solid brown;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+}
+
+
+/* =========================================
+   INTRODUCTION
+   ========================================= */
+
+.intro {
+
+    margin: 20px;
+
+    padding: 15px;
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-left: 5px solid darkslategray;
+
+    line-height: 1.6;
+
+}
+
+
+/* =========================================
+   SECTION
+   ========================================= */
+
+.section {
+
+    margin: 30px 20px;
+
+    padding: 20px;
+
+    background-color: rgba(255, 255, 255, 0.85);
+
+    border-radius: 10px;
+
+}
+
+
+.section h2 {
+
+    margin-bottom: 20px;
+
+    color: darkslategray;
+
+}
+
+
+/* =========================================
+   BORDER STYLE
+   ========================================= */
+
+
+/* Solid */
+
+.solid-border {
+
+    margin: 15px 0;
+
+    padding: 15px;
+
+    border-style: solid;
+
+}
+
+
+/* Dashed */
+
+.dashed-border {
+
+    margin: 15px 0;
+
+    padding: 15px;
+
+    border-style: dashed;
+
+}
+
+
+/* Dotted */
+
+.dotted-border {
+
+    margin: 15px 0;
+
+    padding: 15px;
+
+    border-style: dotted;
+
+}
+
+
+/* Double */
+
+.double-border {
+
+    margin: 15px 0;
+
+    padding: 15px;
+
+    border-style: double;
+
+}
+
+
+/* =========================================
+   BORDER WIDTH
+   ========================================= */
+
+.thin-border {
+
+    margin: 15px 0;
+
+    padding: 15px;
+
+    border: 2px solid brown;
+
+}
+
+
+.medium-border {
+
+    margin: 15px 0;
+
+    padding: 15px;
+
+    border: 5px solid brown;
+
+}
+
+
+.thick-border {
+
+    margin: 15px 0;
+
+    padding: 15px;
+
+    border: 10px solid brown;
+
+}
+
+
+/* =========================================
+   BORDER COLOR
+   ========================================= */
+
+.color-border {
+
+    margin: 15px 0;
+
+    padding: 15px;
+
+    border-style: solid;
+
+    border-width: 6px;
+
+    border-color: red green blue purple;
+
+}
+
+
+/* =========================================
+   INDIVIDUAL BORDER SIDES
+   ========================================= */
+
+.different-border {
+
+    margin: 15px 0;
+
+    padding: 20px;
+
+    border-top: 8px solid red;
+
+    border-right: 8px dashed green;
+
+    border-bottom: 8px dotted blue;
+
+    border-left: 8px double purple;
+
+}
+
+
+/* =========================================
+   BORDER RADIUS
+   ========================================= */
+
+.rounded-border {
+
+    margin: 15px 0;
+
+    padding: 20px;
+
+    border: 5px solid brown;
+
+    border-radius: 25px;
+
+}
+
+
+/* Different radius on each corner */
+
+.custom-radius {
+
+    margin: 15px 0;
+
+    padding: 20px;
+
+    border: 5px solid darkslategray;
+
+    /*
+    top-left
+    top-right
+    bottom-right
+    bottom-left
+    */
+
+    border-radius: 5px 25px 5px 25px;
+
+}
+
+
+/* =========================================
+   BORDER SHORTHAND
+   ========================================= */
+
+.shorthand-border {
+
+    margin: 15px 0;
+
+    padding: 20px;
+
+    /*
+    border shorthand:
+
+    border: width style color;
+    */
+
+    border: 5px solid brown;
+
+}
+
+
+/* =========================================
+   BUTTON
+   ========================================= */
+
+button {
+
+    margin-top: 10px;
+
+    padding: 15px 30px;
+
+    background-color: rgb(69, 169, 135);
+
+    color: white;
+
+    font-size: 16px;
+
+    border: 5px solid brown;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+
+}
