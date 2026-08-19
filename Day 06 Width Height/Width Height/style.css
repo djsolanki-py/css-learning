@@ -1,0 +1,327 @@
+/* =========================================
+   CSS HEIGHT & WIDTH PRACTICE
+   ========================================= */
+
+
+/* Basic Reset */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+/* =========================================
+   BODY
+   ========================================= */
+
+body {
+
+    background-color: #f2f2f2;
+
+    font-family: Arial, sans-serif;
+
+    padding: 25px;
+
+}
+
+
+/* =========================================
+   MAIN HEADING
+   ========================================= */
+
+h1 {
+
+    margin: 15px;
+
+    padding: 15px;
+
+    color: aqua;
+
+    background-color: crimson;
+
+    border: 5px dotted greenyellow;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+}
+
+
+/* =========================================
+   INTRODUCTION
+   ========================================= */
+
+.intro {
+
+    margin: 20px;
+
+    padding: 15px;
+
+    background-color: lightblue;
+
+    border: 2px solid black;
+
+    line-height: 1.6;
+
+}
+
+
+/* =========================================
+   SECTION
+   ========================================= */
+
+.section {
+
+    margin: 25px 15px;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border: 2px solid #333;
+
+    border-radius: 15px;
+
+}
+
+
+.section h2 {
+
+    margin-bottom: 20px;
+
+    color: crimson;
+
+}
+
+
+/* =========================================
+   WIDTH
+   ========================================= */
+
+.width-box {
+
+    width: 500px;
+
+    max-width: 100%;
+
+    margin: 15px auto;
+
+    padding: 20px;
+
+    background-color: lightgreen;
+
+    border: 2px solid green;
+
+    text-align: center;
+
+}
+
+
+/* Percentage width */
+
+.percentage-box {
+
+    width: 80%;
+
+    margin: 15px auto;
+
+    padding: 20px;
+
+    background-color: tomato;
+
+    border: 2px solid yellow;
+
+    text-align: center;
+
+}
+
+
+/* =========================================
+   HEIGHT
+   ========================================= */
+
+.height-box {
+
+    width: 300px;
+
+    height: 200px;
+
+    max-width: 100%;
+
+    margin: 15px auto;
+
+    padding: 20px;
+
+    background-color: lightblue;
+
+    border: 2px solid blue;
+
+    text-align: center;
+
+}
+
+
+/* Viewport height */
+
+.viewport-box {
+
+    width: 300px;
+
+    max-width: 100%;
+
+    height: 30vh;
+
+    margin: 15px auto;
+
+    padding: 20px;
+
+    background-color: lightpink;
+
+    border: 2px solid crimson;
+
+    text-align: center;
+
+}
+
+
+/* =========================================
+   MIN WIDTH & MAX WIDTH
+   ========================================= */
+
+.min-max-box {
+
+    /*
+    The element will not become
+    smaller than 250px.
+    */
+
+    min-width: 250px;
+
+    /*
+    The element will not become
+    wider than 700px.
+    */
+
+    max-width: 700px;
+
+    margin: 15px auto;
+
+    padding: 25px;
+
+    background-color: lightyellow;
+
+    border: 3px solid orange;
+
+    line-height: 1.6;
+
+}
+
+
+/* =========================================
+   MIN HEIGHT
+   ========================================= */
+
+.min-height-box {
+
+    min-height: 150px;
+
+    margin: 15px;
+
+    padding: 25px;
+
+    background-color: lightcyan;
+
+    border: 3px solid darkcyan;
+
+    line-height: 1.6;
+
+}
+
+
+/* =========================================
+   LIST
+   ========================================= */
+
+ul {
+
+    width: 300px;
+
+    max-width: 100%;
+
+    margin: 15px auto;
+
+    padding: 15px 30px;
+
+    background-color: tomato;
+
+    border: 2px solid yellow;
+
+    border-radius: 13px;
+
+}
+
+
+li {
+
+    margin: 8px;
+
+    color: rgb(0, 71, 0);
+
+}
+
+
+/* Links */
+
+li a {
+
+    color: rgb(0, 71, 0);
+
+    text-decoration: none;
+
+}
+
+
+/* =========================================
+   NOTES
+   ========================================= */
+
+.notes {
+
+    margin: 30px 15px;
+
+    padding: 25px;
+
+    background-color: #222;
+
+    color: white;
+
+    border-radius: 15px;
+
+}
+
+
+.notes h2 {
+
+    margin-bottom: 15px;
+
+    color: aqua;
+
+}
+
+
+.notes p {
+
+    margin: 8px 0;
+
+    padding: 8px;
+
+    background-color: #444;
+
+}
