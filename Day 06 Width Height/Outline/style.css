@@ -1,0 +1,266 @@
+/* =========================================
+   CSS OUTLINE PROPERTY PRACTICE
+   ========================================= */
+
+
+/* Basic Reset */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+/* Page */
+
+body {
+
+    background-color: black;
+
+    font-family: Arial, sans-serif;
+
+    padding: 30px;
+
+}
+
+
+/* =========================================
+   MAIN HEADING
+   ========================================= */
+
+h1 {
+
+    margin: 15px;
+
+    padding: 15px;
+
+    color: crimson;
+
+    background-color: burlywood;
+
+    text-align: center;
+
+}
+
+
+/* =========================================
+   INTRODUCTION
+   ========================================= */
+
+.intro {
+
+    margin: 20px;
+
+    padding: 15px;
+
+    color: white;
+
+    background-color: #333;
+
+    line-height: 1.6;
+
+}
+
+
+/* =========================================
+   SECTIONS
+   ========================================= */
+
+.section {
+
+    margin: 30px 20px;
+
+    padding: 20px;
+
+    background-color: #eeeeee;
+
+}
+
+
+.section h2 {
+
+    margin-bottom: 20px;
+
+    color: darkslategray;
+
+}
+
+
+/* =========================================
+   OUTLINE STYLE
+   ========================================= */
+
+.solid-outline {
+
+    margin: 20px;
+
+    padding: 15px;
+
+    background-color: lightblue;
+
+    outline-style: solid;
+
+}
+
+
+.dashed-outline {
+
+    margin: 20px;
+
+    padding: 15px;
+
+    background-color: lightgreen;
+
+    outline-style: dashed;
+
+}
+
+
+.dotted-outline {
+
+    margin: 20px;
+
+    padding: 15px;
+
+    background-color: lightyellow;
+
+    outline-style: dotted;
+
+}
+
+
+.double-outline {
+
+    margin: 20px;
+
+    padding: 15px;
+
+    background-color: lightpink;
+
+    outline-style: double;
+
+}
+
+
+/* =========================================
+   OUTLINE WIDTH
+   ========================================= */
+
+.thin-outline {
+
+    margin: 20px;
+
+    padding: 15px;
+
+    background-color: white;
+
+    outline: 2px solid blue;
+
+}
+
+
+.thick-outline {
+
+    margin: 20px;
+
+    padding: 15px;
+
+    background-color: white;
+
+    outline: 8px solid red;
+
+}
+
+
+/* =========================================
+   OUTLINE COLOR
+   ========================================= */
+
+.color-outline {
+
+    margin: 20px;
+
+    padding: 15px;
+
+    background-color: white;
+
+    outline-style: solid;
+
+    outline-width: 5px;
+
+    outline-color: purple;
+
+}
+
+
+/* =========================================
+   OUTLINE OFFSET
+   ========================================= */
+
+.offset-outline {
+
+    margin: 30px;
+
+    padding: 20px;
+
+    background-color: lightcyan;
+
+    outline: 4px solid darkblue;
+
+    /*
+    outline-offset creates space
+    between the element and outline.
+    */
+
+    outline-offset: 10px;
+
+}
+
+
+/* =========================================
+   OUTLINE SHORTHAND
+   ========================================= */
+
+.shorthand-outline {
+
+    margin: 20px;
+
+    padding: 20px;
+
+    background-color: lightgoldenrodyellow;
+
+    /*
+    outline shorthand:
+
+    outline: width style color;
+    */
+
+    outline: 5px solid brown;
+
+}
+
+
+/* =========================================
+   BORDER + OUTLINE
+   ========================================= */
+
+.border-outline {
+
+    margin: 30px;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border: 5px solid green;
+
+    outline: 5px dashed red;
+
+    outline-offset: 8px;
+
+}
