@@ -1,0 +1,285 @@
+/* =========================================
+   CSS LINKS
+   Learning & Practice
+   ========================================= */
+
+
+/* Basic Reset */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+/* =========================================
+   BODY
+   ========================================= */
+
+body {
+
+    background-color: black;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* =========================================
+   MAIN CONTAINER
+   ========================================= */
+
+.container {
+
+    width: 700px;
+
+    max-width: 90%;
+
+    margin: 30px auto;
+
+    padding: 25px;
+
+    background-color: #222;
+
+    border: 3px solid burlywood;
+
+    border-radius: 15px;
+
+}
+
+
+/* =========================================
+   MAIN HEADING
+   ========================================= */
+
+h1 {
+
+    margin-bottom: 20px;
+
+    padding: 15px;
+
+    color: crimson;
+
+    background-color: burlywood;
+
+    text-align: center;
+
+}
+
+
+/* =========================================
+   INTRODUCTION
+   ========================================= */
+
+.intro {
+
+    margin-bottom: 25px;
+
+    padding: 15px;
+
+    color: white;
+
+    background-color: #333;
+
+    line-height: 1.6;
+
+}
+
+
+/* =========================================
+   LINK SECTION
+   ========================================= */
+
+.link-section {
+
+    margin: 25px 0;
+
+    padding: 20px;
+
+    background-color: #eee;
+
+    border-radius: 10px;
+
+}
+
+
+.link-section h2 {
+
+    margin-bottom: 15px;
+
+    color: darkslategray;
+
+}
+
+
+.link-section p {
+
+    margin: 10px 0;
+
+}
+
+
+/* =========================================
+   LINK STATES
+   ========================================= */
+
+
+/*
+   a:link
+
+   Applies to a normal,
+   unvisited link.
+*/
+
+.link-section a:link {
+
+    color: blue;
+
+}
+
+
+/*
+   a:visited
+
+   Applies after the user
+   has visited the link.
+*/
+
+.link-section a:visited {
+
+    color: blueviolet;
+
+}
+
+
+/*
+   a:hover
+
+   Applies when the mouse
+   is placed over the link.
+*/
+
+.link-section a:hover {
+
+    color: red;
+
+}
+
+
+/*
+   a:active
+
+   Applies while the link
+   is being clicked.
+*/
+
+.link-section a:active {
+
+    color: chocolate;
+
+}
+
+
+/* =========================================
+   BUTTON-STYLE LINKS
+   ========================================= */
+
+.button-link {
+
+    display: inline-block;
+
+    margin: 8px;
+
+    padding: 12px 18px;
+
+    background-color: darkslategray;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+}
+
+
+/*
+   Keep the button links
+   readable in every state.
+*/
+
+.button-link:link {
+
+    color: white;
+
+}
+
+
+.button-link:visited {
+
+    color: lightgreen;
+
+}
+
+
+.button-link:hover {
+
+    color: yellow;
+
+    background-color: crimson;
+
+}
+
+
+/*
+   :active is visible for
+   the moment the link is clicked.
+*/
+
+.button-link:active {
+
+    color: orange;
+
+}
+
+
+/* =========================================
+   LEARNING NOTES
+   ========================================= */
+
+.notes {
+
+    margin-top: 30px;
+
+    padding: 20px;
+
+    color: white;
+
+    background-color: #333;
+
+    border-radius: 10px;
+
+}
+
+
+.notes h2 {
+
+    margin-bottom: 15px;
+
+    color: burlywood;
+
+}
+
+
+.notes p {
+
+    margin: 8px 0;
+
+    padding: 8px;
+
+    background-color: #444;
+
+}
