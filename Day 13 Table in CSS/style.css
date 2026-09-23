@@ -1,0 +1,72 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic page styling */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Main section */
+.main {
+    width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+
+    background-color: darkblue;
+    border-radius: 10px;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: coral;
+}
+
+/* Table */
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Table heading and data */
+th,
+td {
+    padding: 10px 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Main table heading */
+.table-title {
+    background-color: coral;
+    color: white;
+}
+
+/* Column headings */
+.header {
+    background-color: #ff8661;
+    color: white;
+}
+
+/* Table Header  */
+/* tr{
+    background-color: #c22d00;
+    color: white;
+} */
+/* Table data */
+td {
+    color: #222;
+}
+
+/* Alternate rows */
+tr:nth-child(even) {
+    background-color: #df3400;
+}
