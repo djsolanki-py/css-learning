@@ -1,0 +1,63 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container */
+.clearfix {
+    width: 90%;
+    margin: 30px auto;
+
+    border: 2px solid black;
+}
+
+/* First div */
+.div1 {
+    background-color: red;
+    border: 2px solid black;
+    padding: 10px;
+
+    /* Float the element to the right */
+    float: right;
+}
+
+/* Second div */
+.div2 {
+    background-color: rgb(255, 251, 0);
+    border: 2px solid black;
+    padding: 10px;
+
+    /* Float the element to the right */
+    float: right;
+}
+
+/* Third div */
+.div3 {
+    background-color: rgb(50, 186, 0);
+    border: 2px solid black;
+    padding: 10px;
+
+    /* Float the element to the right */
+    float: right;
+}
+
+/* Float image to the left */
+img {
+    float: left;
+    margin-right: 15px;
+}
+
+/* Clear the floated elements */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Paragraph */
+p {
+    padding: 15px;
+    line-height: 1.6;
+}
